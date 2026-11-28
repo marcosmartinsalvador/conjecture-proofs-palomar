@@ -3,8 +3,9 @@
 **The conjecture as printed is disproved; a corrected formula is proved.**
 
 This folder is a self-contained Lean project in the layout the
-[Palomar registry](https://palomar-registry.org/) asks for. The result's own page, with
-the original files and the checker's output, is
+[Palomar registry](https://palomar-registry.org/) asks for: the full statement and the
+full proof are here, and nothing imports or depends on another repository. The result
+was first published, with the checker's output, at
 [`conjectures/cycle_consistency_probability/`](https://github.com/marcosmartinsalvador/conjecture-proofs/tree/a051c72158ef471e5541f0ddad2435755fbb070c/conjectures/cycle_consistency_probability).
 
 ## What is proved

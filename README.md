@@ -16,6 +16,18 @@ author, Marcos Martín Salvador, did not find or write them. Each package's
 `formalization.yaml` and `README.md` say so, and say how the proof was checked and
 reviewed. No mathematician has reviewed these results.
 
+## How this repository relates to conjecture-proofs
+
+Each package here is a complete Lean development. The full statement and the full
+proof are in this repository, each package builds on Mathlib alone, and nothing here
+imports or depends on conjecture-proofs. This repository is not a wrapper around it.
+
+conjecture-proofs is where the results were first published, as plain Lean files,
+together with their reviews and the checker that accepted them. The Lean text here is
+the text of those files at commit
+[`a051c72158ef471e5541f0ddad2435755fbb070c`](https://github.com/marcosmartinsalvador/conjecture-proofs/tree/a051c72158ef471e5541f0ddad2435755fbb070c)
+(release `v1`), with Lean's `module` header in place of the import line.
+
 ## Why a separate repository
 
 The results, their reviews and the checker that accepted the proofs live in

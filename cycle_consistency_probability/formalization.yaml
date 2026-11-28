@@ -20,11 +20,13 @@ project:
   responsible_maintainers:
     - "Marcos Martín Salvador"
 
+# This folder is the whole Lean development of the result: the full statement and the
+# full proof are here, and nothing imports or depends on another repository. It is not
+# a wrapper. The same Lean text was first published, as plain (non-module) Lean files,
+# in marcosmartinsalvador/conjecture-proofs at commit a051c72158ef471e5541f0ddad2435755fbb070c;
+# see `sources` below and the README.
 repository:
-  role: "thin-wrapper"
-  substantive_formalization:
-    id: "https://github.com/marcosmartinsalvador/conjecture-proofs"
-    revision: "a051c72158ef471e5541f0ddad2435755fbb070c"
+  role: "substantive-development"
 
 classification:
   arxiv: ["math.CO", "math.PR"]
@@ -40,7 +42,8 @@ sources:
       As far as the searches described in the README of this folder could tell, this
       result was first presented by the author, in the repository
       marcosmartinsalvador/conjecture-proofs (folder
-      conjectures/cycle_consistency_probability). The corrected formula is a statement
+      conjectures/cycle_consistency_probability, commit
+      a051c72158ef471e5541f0ddad2435755fbb070c). The corrected formula is a statement
       made here. It is not known which formula the authors of the paper below meant.
   - title: "Inconsistency Probability of Sparse Equations over F2"
     authors:
