@@ -5,7 +5,7 @@
 This folder is a self-contained Lean project in the layout the
 [Palomar registry](https://palomar-registry.org/) asks for. The result's own page, with
 the original files and the checker's output, is
-[`conjectures/delta_primitive_two_primes/`](https://github.com/marcosmartinsalvador/conjecture-proofs/tree/main/conjectures/delta_primitive_two_primes).
+[`conjectures/delta_primitive_two_primes/`](https://github.com/marcosmartinsalvador/conjecture-proofs/tree/a051c72158ef471e5541f0ddad2435755fbb070c/conjectures/delta_primitive_two_primes).
 
 ## What is proved
 
@@ -57,7 +57,7 @@ most one pair, the pair (1, n) cannot occur, and the few shapes that are left fo
 be 24, 40 or 216. And 216 = 3² · 24 is not primitive.
 
 The full argument on paper, in seven steps, is in
-[`PROOF_NOTES.md`](https://github.com/marcosmartinsalvador/conjecture-proofs/blob/main/conjectures/delta_primitive_two_primes/PROOF_NOTES.md) in the
+[`PROOF_NOTES.md`](https://github.com/marcosmartinsalvador/conjecture-proofs/blob/a051c72158ef471e5541f0ddad2435755fbb070c/conjectures/delta_primitive_two_primes/PROOF_NOTES.md) in the
 result's own folder; the proof in [`Solution.lean`](Solution.lean) follows those steps.
 
 ## Is it new?
@@ -85,11 +85,11 @@ the reports and decided what to publish. No mathematician has reviewed this resu
 
 - [`Challenge.lean`](Challenge.lean): the statement, with the theorem left open. Its
   definitions are the text of
-  [`Statement.lean`](https://github.com/marcosmartinsalvador/conjecture-proofs/blob/main/conjectures/delta_primitive_two_primes/Statement.lean). One
+  [`Statement.lean`](https://github.com/marcosmartinsalvador/conjecture-proofs/blob/a051c72158ef471e5541f0ddad2435755fbb070c/conjectures/delta_primitive_two_primes/Statement.lean). One
   sentence of a comment, which pointed at files that are not in this folder, was
   reworded; nothing that Lean checks was touched.
 - [`Solution.lean`](Solution.lean): the same statement, then the proof, which is the
-  text of [`Proof.lean`](https://github.com/marcosmartinsalvador/conjecture-proofs/blob/main/conjectures/delta_primitive_two_primes/Proof.lean),
+  text of [`Proof.lean`](https://github.com/marcosmartinsalvador/conjecture-proofs/blob/a051c72158ef471e5541f0ddad2435755fbb070c/conjectures/delta_primitive_two_primes/Proof.lean),
   unchanged. Only the import lines were replaced by a `module` header.
 - [`comparator.json`](comparator.json): tells `lake comparator` to compare the theorem
   `result` in the two files.

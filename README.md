@@ -37,7 +37,10 @@ kept here. Every Lean file in this repository starts with the `module` header.
 | `README.md` | The account in words: what is proved and what is not, the source's statement, how the Lean statement reads it, the idea of the proof, whether it is new, and how it was produced. |
 | `lean-toolchain`, `lakefile.toml`, `lake-manifest.json` | Lean 4.36.0 and Mathlib v4.36.0 (commit `fc4f59e577fe`), the same versions as conjecture-proofs. |
 
-The Lean text was copied, not rewritten. Only the import lines differ: `import Mathlib`
+The Lean text was copied, not rewritten, from commit
+[`a051c72`](https://github.com/marcosmartinsalvador/conjecture-proofs/tree/a051c72158ef471e5541f0ddad2435755fbb070c)
+of conjecture-proofs (its release `v1`); each package's `formalization.yaml` records that
+commit in full. Only the import lines differ: `import Mathlib`
 became
 
 ```lean

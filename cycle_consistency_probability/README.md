@@ -5,7 +5,7 @@
 This folder is a self-contained Lean project in the layout the
 [Palomar registry](https://palomar-registry.org/) asks for. The result's own page, with
 the original files and the checker's output, is
-[`conjectures/cycle_consistency_probability/`](https://github.com/marcosmartinsalvador/conjecture-proofs/tree/main/conjectures/cycle_consistency_probability).
+[`conjectures/cycle_consistency_probability/`](https://github.com/marcosmartinsalvador/conjecture-proofs/tree/a051c72158ef471e5541f0ddad2435755fbb070c/conjectures/cycle_consistency_probability).
 
 ## What is proved
 
@@ -90,10 +90,10 @@ mathematician has reviewed this result.
 
 - [`Challenge.lean`](Challenge.lean): the statement, with the theorem left open. Its
   definitions are the text of
-  [`Statement.lean`](https://github.com/marcosmartinsalvador/conjecture-proofs/blob/main/conjectures/cycle_consistency_probability/Statement.lean),
+  [`Statement.lean`](https://github.com/marcosmartinsalvador/conjecture-proofs/blob/a051c72158ef471e5541f0ddad2435755fbb070c/conjectures/cycle_consistency_probability/Statement.lean),
   unchanged.
 - [`Solution.lean`](Solution.lean): the same statement, then the proof, which is the
-  text of [`Proof.lean`](https://github.com/marcosmartinsalvador/conjecture-proofs/blob/main/conjectures/cycle_consistency_probability/Proof.lean),
+  text of [`Proof.lean`](https://github.com/marcosmartinsalvador/conjecture-proofs/blob/a051c72158ef471e5541f0ddad2435755fbb070c/conjectures/cycle_consistency_probability/Proof.lean),
   unchanged. Only the import lines were replaced by a `module` header.
 - [`comparator.json`](comparator.json): tells `lake comparator` to compare the theorem
   `result` in the two files.
