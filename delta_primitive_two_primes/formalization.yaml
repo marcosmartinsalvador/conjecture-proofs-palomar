@@ -18,11 +18,13 @@ project:
   responsible_maintainers:
     - "Marcos Martín Salvador"
 
+# This folder is the whole Lean development of the result: the full statement and the
+# full proof are here, and nothing imports or depends on another repository. It is not
+# a wrapper. The same Lean text was first published, as plain (non-module) Lean files,
+# in marcosmartinsalvador/conjecture-proofs at commit a051c72158ef471e5541f0ddad2435755fbb070c;
+# see `sources` below and the README.
 repository:
-  role: "thin-wrapper"
-  substantive_formalization:
-    id: "https://github.com/marcosmartinsalvador/conjecture-proofs"
-    revision: "a051c72158ef471e5541f0ddad2435755fbb070c"
+  role: "substantive-development"
 
 classification:
   arxiv: ["math.NT", "math.CO"]
@@ -37,7 +39,8 @@ sources:
       As far as the searches described in the README of this folder could tell, this
       result was first presented by the author, in the repository
       marcosmartinsalvador/conjecture-proofs (folder
-      conjectures/delta_primitive_two_primes). The statement is the conjecture of the
+      conjectures/delta_primitive_two_primes, commit
+      a051c72158ef471e5541f0ddad2435755fbb070c). The statement is the conjecture of the
       paper below; the proof is new.
   - title: "The Δ property: a bridge between split graphs and Number Theory"
     authors:

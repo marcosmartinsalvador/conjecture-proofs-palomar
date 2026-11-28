@@ -21,11 +21,13 @@ project:
   responsible_maintainers:
     - "Marcos Martín Salvador"
 
+# This folder is the whole Lean development of the result: the full statement and the
+# full proof are here, and nothing imports or depends on another repository. It is not
+# a wrapper. The same Lean text was first published, as plain (non-module) Lean files,
+# in marcosmartinsalvador/conjecture-proofs at commit a051c72158ef471e5541f0ddad2435755fbb070c;
+# see `sources` below and the README.
 repository:
-  role: "thin-wrapper"
-  substantive_formalization:
-    id: "https://github.com/marcosmartinsalvador/conjecture-proofs"
-    revision: "a051c72158ef471e5541f0ddad2435755fbb070c"
+  role: "substantive-development"
 
 classification:
   arxiv: ["math.GR"]
@@ -41,7 +43,8 @@ sources:
       As far as the searches described in the README of this folder could tell, this
       result was first presented by the author, in the repository
       marcosmartinsalvador/conjecture-proofs (folder
-      conjectures/kourovka_20_52_class_deficiency). The cases in which 2 occurs at most
+      conjectures/kourovka_20_52_class_deficiency, commit
+      a051c72158ef471e5541f0ddad2435755fbb070c). The cases in which 2 occurs at most
       8 times in m, so in particular every m below 512, were already known (Buckley and
       MacHale, below).
   - title: "Unsolved Problems in Group Theory. The Kourovka Notebook, No. 21"
