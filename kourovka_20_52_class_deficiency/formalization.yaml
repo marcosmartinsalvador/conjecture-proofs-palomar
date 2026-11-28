@@ -21,6 +21,12 @@ project:
   responsible_maintainers:
     - "Marcos Martín Salvador"
 
+repository:
+  role: "thin-wrapper"
+  substantive_formalization:
+    id: "https://github.com/marcosmartinsalvador/conjecture-proofs"
+    revision: "a051c72158ef471e5541f0ddad2435755fbb070c"
+
 classification:
   arxiv: ["math.GR"]
   msc2020: ["20D60", "20E45"]
@@ -113,7 +119,7 @@ automation:
     author did not find or write it. The author set up the project and its rules,
     read the reports and decided what to publish. The README of
     marcosmartinsalvador/conjecture-proofs says which proofs the author has studied
-    closely; this one is not among them yet.
+    closely.
 
 fidelity:
   divergences: >-

@@ -20,6 +20,12 @@ project:
   responsible_maintainers:
     - "Marcos Martín Salvador"
 
+repository:
+  role: "thin-wrapper"
+  substantive_formalization:
+    id: "https://github.com/marcosmartinsalvador/conjecture-proofs"
+    revision: "a051c72158ef471e5541f0ddad2435755fbb070c"
+
 classification:
   arxiv: ["math.CO", "math.PR"]
   msc2020: ["05A15", "60C05"]
